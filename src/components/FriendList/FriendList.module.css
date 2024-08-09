@@ -1,0 +1,9 @@
+.list {
+    padding: 5px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: rgb(19, 20, 20);
+}

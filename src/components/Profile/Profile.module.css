@@ -1,0 +1,82 @@
+.container {
+    padding: 8px;
+    width: 500px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid black;
+    border-color: blue;
+}
+
+.list {
+    padding: 5px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    color: rgb(19, 20, 20);
+}
+
+.item {
+    width: 200px;
+    /* padding: 5px;
+    margin: 5px; */
+    display: flex;
+    gap: 5px;
+    /* border-radius: 10px; */
+    border: 2px solid rgb(104, 102, 102);
+    /* border-color: blue; */
+    color: rgb(14, 15, 15);
+    flex-direction: column;
+    /* gap: 5px; */
+    text-align: center;
+    align-items: center;
+}
+
+.itemText {
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.itemTextdata {
+    color: black;
+    font-size: 2em;
+    font-weight: 700 - bold;
+    line-height: 1.1;
+}
+
+/* 
+.images {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid;
+} */
+
+.imgWrapper {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.imgBloc {
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1;
+}

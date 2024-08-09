@@ -1,0 +1,31 @@
+.item {
+    padding: 5px;
+    margin: 5px;
+    /* border-radius: 10px;
+    border: 2px solid black;
+    border-color: blue; */
+    /* display: flex; */
+    color: rgb(14, 15, 15);
+}
+
+.images {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.container {
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid black;
+    border-color: blue;
+}
+
+.isActive {
+    border-color: green;
+}
+
+.isRetared {
+    border-color: rgb(128, 0, 6);
+}
