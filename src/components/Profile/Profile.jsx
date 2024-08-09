@@ -2,7 +2,7 @@ import css from "./Profile.module.css"
 
 
 export default function Profile({
-    uzerS: { name, tag, location, image, stats: { followers, views, likes } } },
+    uzerS: { username, tag, location, avatar, stats: { followers, views, likes } } },
 ) {
     return (
 
@@ -10,20 +10,12 @@ export default function Profile({
             <div className={css.imgBloc}>
                 <img className={css.imgWrapper}
 
-                    src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
-                    alt="User avatar" width="280"
-
-                // src={image} alt={name} width="280"
+                    src={avatar} alt={username} width="280"
 
                 />
 
                 <p className={css.title}>
-                    <b>{name}</b></p>
-
-
-                <p className={css.title}>
-                    Petra Marica {name}
-                </p>
+                    {username}    </p>
 
                 <p>@ {tag} </p>
                 <h2> {location} </h2>

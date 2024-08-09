@@ -1,5 +1,5 @@
 .container {
-    padding: 8px;
+    padding: 0px;
     width: 500px;
     height: auto;
     background-color: #ffffff;
@@ -9,26 +9,23 @@
 }
 
 .list {
-    padding: 5px;
+    padding: 0px;
     margin: 0px;
     list-style: none;
     display: flex;
-    gap: 16px;
+    /* gap: 16px; */
     color: rgb(19, 20, 20);
 }
 
 .item {
-    width: 200px;
-    /* padding: 5px;
-    margin: 5px; */
-    display: flex;
-    gap: 5px;
-    /* border-radius: 10px; */
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding-top: 20px;
     border: 2px solid rgb(104, 102, 102);
-    /* border-color: blue; */
     color: rgb(14, 15, 15);
+    display: flex;
     flex-direction: column;
-    /* gap: 5px; */
     text-align: center;
     align-items: center;
 }
@@ -47,19 +44,8 @@
     line-height: 1.1;
 }
 
-/* 
-.images {
-    padding: 5px;
-    margin: 5px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 1px solid;
-} */
-
 .imgWrapper {
     width: 200px;
-    height: 200px;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 50%;
     overflow: hidden;
@@ -79,4 +65,51 @@
     font-size: 2em;
     font-weight: 700;
     line-height: 1.1;
+}
+
+.container {
+    width: 100%;
+    margin: 10px auto;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .imgWrapper {
+        width: 280px;
+    }
+
+    .userName {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        margin: 20px auto;
+    }
+
+    .userContent {
+        padding: 30px;
+    }
+
+    .imgWrapper {
+        width: 500px;
+    }
+
+    .userImg {
+        width: 500px;
+    }
 }

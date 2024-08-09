@@ -13,6 +13,15 @@
     margin: 5px;
     border-radius: 10px;
     border: 1px solid;
+    overflow: hidden;
+}
+
+.imgWrapper {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .container {
@@ -22,10 +31,44 @@
     border-color: blue;
 }
 
-.isActive {
-    border-color: green;
+/* 
+.text {
+    .isActive {
+        color: green;
+    }
+
+    .isRetared {
+        color: rgb(128, 0, 6);
+    }
+} */
+
+.friendImg {
+    margin-bottom: 10px;
 }
 
-.isRetared {
-    border-color: rgb(128, 0, 6);
+.friendName {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.friendStatus {
+    font-size: 20px;
+}
+
+.isOnline {
+    color: rgb(35, 166, 5);
+}
+
+.isOffline {
+    color: rgb(255, 0, 0);
+}
+
+@media screen and (min-width: 768px) {
+    .friendName {
+        font-size: 35px;
+    }
+
+    .friendStatus {
+        font-size: 25px;
+    }
 }
