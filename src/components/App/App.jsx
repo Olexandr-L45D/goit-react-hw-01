@@ -15,7 +15,7 @@ export default function App() {
 
     <div className={css.container}>
       <>
-        <h1> Hello </h1>
+
         <Profile uzerS={proFile} />
 
         <FriendList friends={friends} />

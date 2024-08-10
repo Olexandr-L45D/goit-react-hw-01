@@ -16,7 +16,7 @@ export default function Profile({
                 <p className={css.title}>
                     {username}    </p>
 
-                <p>@ {tag} </p>
+                <p className={css.itemText}>@ {tag} </p>
                 <h2> {location} </h2>
             </div>
 

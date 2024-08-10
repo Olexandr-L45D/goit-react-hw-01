@@ -7,8 +7,8 @@ export default function TransactionHistory({
         <div className={css.container}>
 
             <table className={css.tables}>
-                <thead>
-                    <tr>
+                <thead >
+                    <tr className={css.tabl}>
                         <th className={css.title}>Type</th>
                         <th className={css.title}>Amount</th>
                         <th className={css.title}>Currency</th>

@@ -32,9 +32,10 @@
 
 .itemText {
     color: black;
-    font-size: 1em;
-    font-weight: 500;
-    line-height: 1;
+    font-size: 2em;
+    font-weight: 700 - bold;
+    line-height: 1.1;
+
 }
 
 .itemTextdata {
