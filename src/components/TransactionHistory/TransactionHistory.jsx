@@ -1,8 +1,7 @@
 import css from "./TransactionHistory.module.css"
+import TransactionItem from "../TransactionItem/TransactionItem"
 
-export default function TransactionHistory({
-    items: { type, amount, currency } },
-) {
+export default function TransactionHistory({ items }) {
     return (
         <div className={css.container}>
 
@@ -16,17 +15,15 @@ export default function TransactionHistory({
                 </thead>
 
                 <tbody className={css.list}>
-                    <tr className={css.item}>
-                        <td className={css.titleText}>Invoice {type} </td>
-                        <td className={css.itemTextdata}>125 {amount} </td>
-                        <td className={css.itemText}>USD {currency} </td>
-                    </tr>
-                    <tr className={css.item}>
-                        <td className={css.titleText}>Withdrawal {type} </td>
-                        <td className={css.itemTextdata}>85 {amount} </td>
-                        <td className={css.itemText}>USD {currency} </td>
-                    </tr>
+                    {items.map((item) => {
+                        return (
+                            <tr className={css.item} key={item.id}>
+                                <TransactionItem item={item} />
+                            </tr>);
+                    })}
+
                 </tbody>
+
             </table>
 
         </div>
@@ -34,3 +31,4 @@ export default function TransactionHistory({
 
     );
 }
+

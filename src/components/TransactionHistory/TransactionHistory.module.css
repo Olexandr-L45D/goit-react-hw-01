@@ -3,7 +3,7 @@
     width: 100%;
     height: auto;
     background-color: #ffffff;
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     border-color: black;
     text-align: center;
     align-items: center;
@@ -17,8 +17,6 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    /* text-align: center;
-    align-items: center; */
 }
 
 .tabl {
@@ -26,12 +24,11 @@
     margin: 0px;
     width: 100%;
     height: auto;
+    background-color: rgb(15, 8, 8);
+    color: #ffffff;
     list-style: none;
     display: flex;
     flex-direction: row;
-    /* text-align: center;
-    align-items: center; */
-    border: 2px solid rgb(104, 102, 102);
 }
 
 .list {
@@ -42,71 +39,24 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    color: rgb(19, 20, 20);
-    text-align: center;
-    align-items: center;
-}
-
-.item {
-    width: 100%;
-    height: 50px;
-    padding: 0px;
-    margin: 0px;
-    border: 2px solid rgb(19, 20, 20);
-    color: rgb(14, 15, 15);
-    display: flex;
-    flex-direction: row;
     text-align: center;
     align-items: center;
 }
 
 .title {
     width: 100px;
-    height: 50px;
-    color: black;
-    font-size: 1.5em;
+    height: 20px;
+    color: #ffffff;
+    font-size: 1em;
     font-weight: 500;
     line-height: 1;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
     border: 1px solid rgb(0, 0, 0);
 }
 
-.titleText {
-    width: 100px;
-    height: 50px;
-    color: black;
-    font-size: 1.2em;
-    font-weight: 500 - bold;
-    line-height: 1;
-    text-align: center;
-    align-items: center;
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.itemText {
-    width: 100px;
-    height: 50px;
-    color: black;
-    font-size: 1.2em;
-    font-weight: 500 - bold;
-    line-height: 1;
-    text-align: center;
-    align-items: center;
-    border: 1px solid rgb(0, 0, 0);
-}
-
-.itemTextdata {
-    width: 100px;
-    height: 50px;
-    color: black;
-    font-size: 1.2em;
-    font-weight: 500 - bold;
-    line-height: 1;
-    text-align: center;
-    align-items: center;
-    border: 1px solid rgb(0, 0, 0);
-}
 
 @media screen and (min-width: 375px) {
     .container {
@@ -115,6 +65,7 @@
 
     .title {
         width: 150px;
+        height: 25px;
     }
 
     .titleText {
@@ -133,47 +84,11 @@
     }
 
     .title {
-        width: 200px;
+        width: 100%;
         height: 50px;
-        color: black;
+        color: #ffffff;
         font-size: 2em;
         font-weight: 700;
-        line-height: 1.1;
-        text-align: center;
-        align-items: center;
-        border: 1px solid rgb(0, 0, 0);
-    }
-
-    .titleText {
-        width: 200px;
-        height: 50px;
-        color: black;
-        font-size: 2em;
-        font-weight: 700 - bold;
-        line-height: 1.1;
-        text-align: center;
-        align-items: center;
-        border: 1px solid rgb(0, 0, 0);
-    }
-
-    .itemText {
-        width: 200px;
-        height: 50px;
-        color: black;
-        font-size: 2em;
-        font-weight: 700 - bold;
-        line-height: 1.1;
-        text-align: center;
-        align-items: center;
-        border: 1px solid rgb(0, 0, 0);
-    }
-
-    .itemTextdata {
-        width: 200px;
-        height: 50px;
-        color: black;
-        font-size: 2em;
-        font-weight: 700 - bold;
         line-height: 1.1;
         text-align: center;
         align-items: center;
