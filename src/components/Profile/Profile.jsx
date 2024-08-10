@@ -1,6 +1,5 @@
 import css from "./Profile.module.css"
 
-
 export default function Profile({
     uzerS: { username, tag, location, avatar, stats: { followers, views, likes } } },
 ) {
