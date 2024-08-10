@@ -8,7 +8,7 @@ export default function FriendList({ friends }) {
         <ul className={css.list}>
             {friends.map(item => {
                 return (
-                    <li key={item.id}>
+                    <li className={css.item} key={item.id}>
                         <FriendListItem friend={item} />
                     </li>);
             })}

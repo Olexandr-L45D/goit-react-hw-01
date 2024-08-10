@@ -14,7 +14,6 @@ export default function FriendListItem({
         <div className={containerClsc.join(" ")}>
             <img className={css.images} src={avatar} alt="Avatar" width="48" />
 
-
             <p className={css.friendName}>{name}</p>
             <p className={css.friendStatus}>
 

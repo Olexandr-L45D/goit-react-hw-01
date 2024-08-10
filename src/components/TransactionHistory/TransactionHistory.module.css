@@ -61,48 +61,48 @@
 }
 
 .title {
-    width: 150px;
+    width: 100px;
     height: 50px;
     color: black;
-    font-size: 2em;
-    font-weight: 700;
-    line-height: 1.1;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1;
     text-align: center;
     align-items: center;
     border: 1px solid rgb(0, 0, 0);
 }
 
 .titleText {
-    width: 150px;
+    width: 100px;
     height: 50px;
     color: black;
-    font-size: 2em;
-    font-weight: 700 - bold;
-    line-height: 1.1;
+    font-size: 1.2em;
+    font-weight: 500 - bold;
+    line-height: 1;
     text-align: center;
     align-items: center;
     border: 1px solid rgb(0, 0, 0);
 }
 
 .itemText {
-    width: 150px;
+    width: 100px;
     height: 50px;
     color: black;
-    font-size: 2em;
-    font-weight: 700 - bold;
-    line-height: 1.1;
+    font-size: 1.2em;
+    font-weight: 500 - bold;
+    line-height: 1;
     text-align: center;
     align-items: center;
     border: 1px solid rgb(0, 0, 0);
 }
 
 .itemTextdata {
-    width: 150px;
+    width: 100px;
     height: 50px;
     color: black;
-    font-size: 2em;
-    font-weight: 700 - bold;
-    line-height: 1.1;
+    font-size: 1.2em;
+    font-weight: 500 - bold;
+    line-height: 1;
     text-align: center;
     align-items: center;
     border: 1px solid rgb(0, 0, 0);
@@ -110,26 +110,81 @@
 
 @media screen and (min-width: 375px) {
     .container {
-        max-width: 375px;
+        width: 375px;
     }
+
+    .title {
+        width: 150px;
+    }
+
+    .titleText {
+        width: 150px;
+    }
+
+    .itemText {
+        width: 150px;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        width: 768px;
+    }
+
+    .title {
+        width: 200px;
+        height: 50px;
+        color: black;
+        font-size: 2em;
+        font-weight: 700;
+        line-height: 1.1;
+        text-align: center;
+        align-items: center;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .titleText {
+        width: 200px;
+        height: 50px;
+        color: black;
+        font-size: 2em;
+        font-weight: 700 - bold;
+        line-height: 1.1;
+        text-align: center;
+        align-items: center;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .itemText {
+        width: 200px;
+        height: 50px;
+        color: black;
+        font-size: 2em;
+        font-weight: 700 - bold;
+        line-height: 1.1;
+        text-align: center;
+        align-items: center;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .itemTextdata {
+        width: 200px;
+        height: 50px;
+        color: black;
+        font-size: 2em;
+        font-weight: 700 - bold;
+        line-height: 1.1;
+        text-align: center;
+        align-items: center;
+        border: 1px solid rgb(0, 0, 0);
     }
 
 }
 
 @media screen and (min-width: 1440px) {
     .container {
-        max-width: 1440px;
+        width: 1440px;
         margin: 20px auto;
     }
-
-    .userContent {
-        padding: 30px;
-    }
-
-
 }

@@ -1,31 +1,18 @@
 .item {
-    padding: 5px;
-    margin: 5px;
-    /* border-radius: 10px;
-    border: 2px solid black;
-    border-color: blue; */
-    /* display: flex; */
+    padding: 2px;
+    margin: 2px;
     color: rgb(14, 15, 15);
 }
 
 .images {
-    padding: 5px;
-    margin: 5px;
+    padding: 2px;
+    margin: 2px;
     border-radius: 10px;
-    border: 1px solid;
     overflow: hidden;
-}
-
-.imgWrapper {
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 30px;
 }
 
 .container {
-    padding: 8px;
+    padding: 2px;
     border-radius: 10px;
     border: 2px solid black;
     border-color: blue;
@@ -49,10 +36,16 @@
 .friendName {
     font-size: 30px;
     font-weight: 500;
+    font-size: 1em;
+    font-weight: 500 - bold;
+    line-height: 1;
 }
 
 .friendStatus {
     font-size: 20px;
+    font-size: 1em;
+    font-weight: 500 - bold;
+    line-height: 1;
 }
 
 .isOnline {
@@ -63,7 +56,24 @@
     color: rgb(255, 0, 0);
 }
 
+/* 
+@media screen and (min-width: 375px) {
+    .container {
+        width: 375px;
+    }
+} */
+
 @media screen and (min-width: 768px) {
+    .item {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .images {
+        padding: 5px;
+        margin: 5px;
+    }
+
     .friendName {
         font-size: 35px;
     }
@@ -71,4 +81,13 @@
     .friendStatus {
         font-size: 25px;
     }
+
 }
+
+/* 
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+        margin: 20px auto;
+    }
+} */

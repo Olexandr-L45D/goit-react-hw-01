@@ -32,20 +32,21 @@
 
 .itemText {
     color: black;
-    font-size: 2em;
-    font-weight: 700 - bold;
+    font-size: 1.5em;
+    font-weight: 500 - bold;
     line-height: 1.1;
 
 }
 
 .itemTextdata {
     color: black;
-    font-size: 2em;
-    font-weight: 700 - bold;
+    font-size: 1.5em;
+    font-weight: 500 - bold;
     line-height: 1.1;
 }
 
 .imgWrapper {
+    padding-top: 20px;
     width: 200px;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 50%;
@@ -54,9 +55,9 @@
 }
 
 .imgBloc {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
-    /* gap: 5px; */
     text-align: center;
     align-items: center;
 }
@@ -70,7 +71,7 @@
 
 .container {
     width: 100%;
-    margin: 10px auto;
+    margin: 0px auto;
     border: 4px solid rgb(0, 0, 0);
     border-radius: 10px;
     overflow: hidden;
@@ -78,13 +79,52 @@
 
 @media screen and (min-width: 375px) {
     .container {
-        max-width: 375px;
+        width: 375px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        width: 768px;
+    }
+
+    .itemText {
+        color: black;
+        font-size: 2em;
+        font-weight: 700 - bold;
+        line-height: 1.1;
+
+    }
+
+    .itemTextdata {
+        color: black;
+        font-size: 2em;
+        font-weight: 700 - bold;
+        line-height: 1.1;
+    }
+
+    .imgWrapper {
+        padding-top: 20px;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .imgBloc {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .title {
+        color: black;
+        font-size: 2em;
+        font-weight: 700;
+        line-height: 1.1;
     }
 
     .imgWrapper {
@@ -98,8 +138,8 @@
 
 @media screen and (min-width: 1440px) {
     .container {
-        max-width: 1440px;
-        margin: 20px auto;
+        width: 1440px;
+        /* margin: 20px auto; */
     }
 
     .userContent {

@@ -4,6 +4,37 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    /* gap: 5px; */
     color: rgb(19, 20, 20);
+}
+
+.item {
+    padding: 2px;
+    margin: 2px;
+    width: 70px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .item {
+        padding: 5px;
+        margin: 5px;
+        width: 150px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+
+    }
+
+    .item {
+        padding: 5px;
+        margin: 5px;
+        width: 200px;
+    }
 }
