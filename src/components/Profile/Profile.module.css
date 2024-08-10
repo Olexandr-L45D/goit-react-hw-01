@@ -35,7 +35,18 @@
     font-size: 1.5em;
     font-weight: 500 - bold;
     line-height: 1.1;
+}
 
+.itemTextTag {
+    font-size: 1.5em;
+    font-weight: 500 - bold;
+    line-height: 1.1;
+}
+
+.itemTextLoc {
+    font-size: 1.5em;
+    font-weight: 500 - bold;
+    line-height: 1.1;
 }
 
 .itemTextdata {
@@ -64,7 +75,7 @@
 
 .title {
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
     color: black;
     font-size: 2em;
     font-weight: 700;
@@ -92,6 +103,18 @@
 
     .itemTextdata {
         color: black;
+        font-size: 2em;
+        font-weight: 700 - bold;
+        line-height: 1.1;
+    }
+
+    .itemTextLoc {
+        font-size: 2em;
+        font-weight: 700 - bold;
+        line-height: 1.1;
+    }
+
+    .itemTextTag {
         font-size: 2em;
         font-weight: 700 - bold;
         line-height: 1.1;

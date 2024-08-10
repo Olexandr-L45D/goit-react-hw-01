@@ -5,26 +5,26 @@ export default function TransactionHistory({ items }) {
     return (
         <div className={css.container}>
 
-            <table className={css.tables}>
-                <thead >
-                    <tr className={css.tabl}>
-                        <th className={css.title}>Type</th>
-                        <th className={css.title}>Amount</th>
-                        <th className={css.title}>Currency</th>
-                    </tr>
-                </thead>
+            <div className={css.tables}>
 
-                <tbody className={css.list}>
+                <li className={css.tabl}>
+                    <p className={css.title}>Type</p>
+                    <p className={css.title}>Amount</p>
+                    <p className={css.title}>Currency</p>
+                </li>
+
+
+                <div className={css.list}>
                     {items.map((item) => {
                         return (
-                            <tr className={css.item} key={item.id}>
+                            <div className={css.item} key={item.id}>
                                 <TransactionItem item={item} />
-                            </tr>);
+                            </div>);
                     })}
 
-                </tbody>
+                </div>
 
-            </table>
+            </div>
 
         </div>
 

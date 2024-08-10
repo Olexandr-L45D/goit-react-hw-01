@@ -4,20 +4,15 @@ export default function Profile({
     uzerS: { username, tag, location, avatar, stats: { followers, views, likes } } },
 ) {
     return (
-
         <div className={css.container}>
             <div className={css.imgBloc}>
                 <img className={css.imgWrapper}
-
                     src={avatar} alt={username} width="280"
-
                 />
-
                 <p className={css.title}>
                     {username}    </p>
-
-                <p className={css.itemText}>@ {tag} </p>
-                <h2> {location} </h2>
+                <p className={css.itemTextTag}>@ {tag} </p>
+                <h2 className={css.itemTextLoc}> {location} </h2>
             </div>
 
             <ul className={css.list}>
@@ -38,15 +33,3 @@ export default function Profile({
     );
 }
 
-
-// Profile.propTypes = {
-//     name: PropTypes.string.isRequired,
-//     tag: PropTypes.string.isRequired,
-//     location: PropTypes.string.isRequired,
-//     image: PropTypes.string.isRequired,
-//     stats: PropTypes.shape({
-//         followers: PropTypes.number.isRequired,
-//         views: PropTypes.number.isRequired,
-//         likes: PropTypes.number.isRequired,
-//     }).isRequired,
-// };

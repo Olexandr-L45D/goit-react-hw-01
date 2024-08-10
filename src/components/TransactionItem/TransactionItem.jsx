@@ -6,15 +6,16 @@ export default function TransactionItem({
     return (
         <div className={css.container}>
 
-            <tbody className={css.list}>
-                <tr className={css.item}>
-                    <td className={css.titleText}> {type} </td>
-                    <td className={css.itemTextdata}> {amount} </td>
-                    <td className={css.itemText}> {currency} </td>
-                </tr>
-            </tbody>
+            <ul className={css.list}>
+                <li className={css.item}>
+                    <p className={css.titleText}> {type} </p>
+                    <p className={css.itemTextdata}> {amount} </p>
+                    <p className={css.itemText}> {currency} </p>
+                </li>
+            </ul>
 
         </div>
     );
 }
+
 
