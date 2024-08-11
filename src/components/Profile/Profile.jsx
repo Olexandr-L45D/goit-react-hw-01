@@ -1,16 +1,16 @@
 import css from "./Profile.module.css"
 
 export default function Profile({
-    uzerS: { username, tag, location, avatar, stats: { followers, views, likes } } },
+    name, tag, location, image, stats: { followers, views, likes } },
 ) {
     return (
         <div className={css.container}>
             <div className={css.imgBloc}>
                 <img className={css.imgWrapper}
-                    src={avatar} alt={username} width="280"
+                    src={image} alt={name} width="280"
                 />
                 <p className={css.title}>
-                    {username}    </p>
+                    {name}    </p>
                 <p className={css.itemTextTag}>@ {tag} </p>
                 <h2 className={css.itemTextLoc}> {location} </h2>
             </div>

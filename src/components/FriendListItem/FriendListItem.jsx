@@ -3,7 +3,7 @@ import css from "./FriendListItem.module.css"
 export default function FriendListItem({
     friend: { avatar, name, isOnline }
 }) {
-    const containerClsc = [css.container];
+    const containerClsc = [css.friendStatus];
     if (isOnline) {
         containerClsc.push(css.isOnline);
     } else {

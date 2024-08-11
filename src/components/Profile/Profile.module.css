@@ -33,26 +33,26 @@
 .itemText {
     color: black;
     font-size: 1.5em;
-    font-weight: 500 - bold;
+    font-weight: 500;
     line-height: 1.1;
 }
 
 .itemTextTag {
     font-size: 1.5em;
-    font-weight: 500 - bold;
+    font-weight: 500;
     line-height: 1.1;
 }
 
 .itemTextLoc {
     font-size: 1.5em;
-    font-weight: 500 - bold;
+    font-weight: 500;
     line-height: 1.1;
 }
 
 .itemTextdata {
     color: black;
     font-size: 1.5em;
-    font-weight: 500 - bold;
+    font-weight: 500;
     line-height: 1.1;
 }
 
@@ -96,7 +96,7 @@
     .itemText {
         color: black;
         font-size: 2em;
-        font-weight: 700 - bold;
+        font-weight: 700;
         line-height: 1.1;
 
     }
@@ -104,19 +104,19 @@
     .itemTextdata {
         color: black;
         font-size: 2em;
-        font-weight: 700 - bold;
+        font-weight: 700;
         line-height: 1.1;
     }
 
     .itemTextLoc {
         font-size: 2em;
-        font-weight: 700 - bold;
+        font-weight: 700;
         line-height: 1.1;
     }
 
     .itemTextTag {
         font-size: 2em;
-        font-weight: 700 - bold;
+        font-weight: 700;
         line-height: 1.1;
     }
 
@@ -156,7 +156,6 @@
 @media screen and (min-width: 1440px) {
     .container {
         width: 1440px;
-        /* margin: 20px auto; */
     }
 
     .userContent {
