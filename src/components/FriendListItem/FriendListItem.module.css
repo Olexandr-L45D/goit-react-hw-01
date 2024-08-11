@@ -1,16 +1,16 @@
-.container {
-    padding: 2px;
-    border-radius: 10px;
-    border: 2px solid black;
-    border-color: black;
-}
-
-/* 
 .item {
     padding: 2px;
     margin: 2px;
+    height: auto;
+    width: 70px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
     color: rgb(14, 15, 15);
-} */
+    border: 1px solid black;
+    border-color: black;
+    border-radius: 10px;
+}
 
 .images {
     padding: 2px;
@@ -20,6 +20,8 @@
 }
 
 .friendName {
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 30px;
     font-weight: 500;
     font-size: 1em;
@@ -29,6 +31,8 @@
 }
 
 .friendStatus {
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
     font-size: 1em;
     font-weight: 500 - bold;
@@ -44,17 +48,22 @@
 }
 
 @media screen and (min-width: 768px) {
-    /* .item {
+    .item {
         padding: 5px;
         margin: 5px;
-    } */
+        width: 140px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 
     .images {
-        padding: 5px;
-        margin: 5px;
+        width: 100px;
     }
 
     .friendName {
+        padding-top: 20px;
+        padding-bottom: 20px;
         font-size: 35px;
     }
 
@@ -62,4 +71,14 @@
         font-size: 25px;
     }
 
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    .item {
+        padding: 5px;
+        margin: 5px;
+        /* width: 170px; */
+    }
 }

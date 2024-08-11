@@ -3,32 +3,22 @@ import TransactionItem from "../TransactionItem/TransactionItem"
 
 export default function TransactionHistory({ items }) {
     return (
-        <div className={css.container}>
-
-            <div className={css.tables}>
-
-                <li className={css.tabl}>
-                    <p className={css.title}>Type</p>
-                    <p className={css.title}>Amount</p>
-                    <p className={css.title}>Currency</p>
-                </li>
-
-
-                <div className={css.list}>
-                    {items.map((item) => {
-                        return (
-                            <div className={css.item} key={item.id}>
-                                <TransactionItem item={item} />
-                            </div>);
-                    })}
-
-                </div>
-
-            </div>
-
-        </div>
-
-
+        <table className={css.container}>
+            <thead className={css.tables}>
+                <tr className={css.tabl}>
+                    <th className={css.title}>Type</th>
+                    <th className={css.title}>Amount</th>
+                    <th className={css.title}>Currency</th>
+                </tr>
+            </thead>
+            <tbody className={css.list}>
+                {items.map((ite) => {
+                    return (
+                        <tr className={css.item} key={ite.id}>
+                            <TransactionItem item={ite} />
+                        </tr>);
+                })}</tbody>
+        </table>
     );
 }
 
